@@ -1,5 +1,6 @@
 import Header from "./Component/Header";
-import Herosection from "./Component/Herosection";
+import HeroSection from "./Component/HeroSection_temp";
+
 import Solutions from "./Component/Solutions";
 import Web3Objectives from "./Component/Web3Objectives";
 import './App.css';
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="w-screen">
       <Header />
-      <Herosection />
+      <HeroSection />
       <Solutions />
       <Web3Objectives />
     </div>
